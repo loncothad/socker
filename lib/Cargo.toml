@@ -1,0 +1,21 @@
+[package]
+name                   = "lib"
+version                = "0.0.1"
+authors.workspace      = true
+license-file.workspace = true
+repository.workspace   = true
+rust-version.workspace = true
+edition.workspace      = true
+
+[lints]
+workspace = true
+
+[features]
+default = [  ]
+tokio   = [ "dep:tokio", "dep:tokio-util" ]
+
+[dependencies]
+futures.workspace = true
+tokio             = { optional = true, version = "1.47", features = [ "io-util", "macros", "net", "rt" ] }
+tokio-util        = { optional = true, version = "0.7", features = [ "compat", "io", "net" ] }
+caret             = "0.6"
