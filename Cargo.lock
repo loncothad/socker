@@ -163,16 +163,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "lib"
-version = "0.0.1"
-dependencies = [
- "caret",
- "futures",
- "tokio",
- "tokio-util",
-]
-
-[[package]]
 name = "libc"
 version = "0.2.175"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -254,6 +244,16 @@ name = "slab"
 version = "0.4.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7a2ae44ef20feb57a68b23d846850f861394c2e02dc425a50098ae8c90267589"
+
+[[package]]
+name = "socker"
+version = "0.0.1"
+dependencies = [
+ "caret",
+ "futures",
+ "tokio",
+ "tokio-util",
+]
 
 [[package]]
 name = "socket2"

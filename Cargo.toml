@@ -3,8 +3,10 @@ resolver = "3"
 members  = [ "lib" ]
 
 [workspace.package]
+publish      = false
 authors      = [ "loncothad <me@loncothad.cc>" ]
 license-file = "LICENSE.md"
+readme       = "README.md"
 repository   = "https://github.com/loncothad/socker"
 rust-version = "1.85"
 edition      = "2024"

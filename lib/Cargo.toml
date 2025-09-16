@@ -1,7 +1,12 @@
 [package]
-name                   = "lib"
+name                   = "socker"
+description            = "SOCKS protocol implementation"
 version                = "0.0.1"
+categories             = [ "network-programming" ]
+keywords               = [ "client", "proxy", "server", "socks", "socks5" ]
+publish                = true
 authors.workspace      = true
+readme.workspace       = true
 license-file.workspace = true
 repository.workspace   = true
 rust-version.workspace = true
